@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(0, 0, 0, 0.274);
+    
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.atm{
+    position: absolute;
+    top: 0;
+    font-size: 5rem;
+    color:white ;
+    text-align: center;
+
+}
+
+#formDeposito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-oscuro{
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+}
+
+.select{
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    box-shadow: 2px 2px 6px 3px rgba(0, 0, 0, 0.664);
+}
+.btn-ingresar{
+    box-shadow: 2px 2px 6px 3px rgba(0, 0, 0, 0.664);
+}
+.titulo-bienvenida{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+.resultado-consulta{
+    text-align: center;
+    padding: 10px ;
+    background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: white;
+}
